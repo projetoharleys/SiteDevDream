@@ -52,12 +52,12 @@ section{
 }
 
 .img_topo{
-    width: 50%;
-    height: 500px;
-    margin-top: 2%;
-    margin-left: 46%;
-    float: right;
-    position: absolute;
+    width: 40%;
+    height: 400px;
+    margin-top: 0%;
+    margin-left: 30%;
+    /* float: right; */
+    /* position: absolute; */
 
 }
 footer{
@@ -92,10 +92,10 @@ h1{
 }
 h2{
     color: #22F2EC;
-    text-align: left;
+    text-align: center;
     font-size: 2em;
     margin-top: 5%;
-    margin-bottom: 7%;
+    margin-bottom: 2%;
     font-family: 'Fredoka One', cursive;
 }
 /*COR DOS LINKS*/
@@ -168,8 +168,8 @@ a:active {
     }
     .itens_menu{
         position: absolute;
-        right: 15%;
-        top: 6%;
+        right: 17%;
+        top: 8%;
         width: 70%;
     }
 
@@ -178,7 +178,7 @@ a:active {
         margin-left: 3%;
     }
     .img_logo{
-        margin-left: 40%;
+        margin-left: 10%;
         width: 30%;
     }
 
