@@ -32,9 +32,9 @@ header{
 
 .itens_menu a:hover{
     background-color: #22F2EC;
-    padding: 0%;
+    padding: 0.5%;
     color: black;
-    border-radius: 15px
+    border-radius: 10px
 }
 body{
     background-color: rgb(20, 20, 20);
@@ -61,7 +61,7 @@ section{
 
 }
 footer{
-    background-color: #00fe8a;
+    background-color: #22F2EC;
     margin-top: 5%;
     text-align: center;
     padding: 3%;
@@ -83,12 +83,20 @@ p{
 }
 
 h1{
-    color: deepskyblue;
-    text-align: left;
+    color: #22F2EC;
+    text-align: center;
     font-size: 2.5em;
     margin-top: 5%;
     margin-bottom: 5%;
     font-family: 'Bebas Neue', cursive;
+}
+h2{
+    color: #22F2EC;
+    text-align: left;
+    font-size: 2em;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    font-family: 'Fredoka One', cursive;
 }
 /*COR DOS LINKS*/
 a:link {
@@ -103,6 +111,51 @@ a:hover {
 a:active {
     color: 	black; 
 }
+.harley{
+    margin-top: 10%;
+    margin-bottom: 90%;
+    padding: 10px;
+}
+
+.sla{
+    float:left;
+    margin-right: 15%;
+    margin-top: 30%;
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    width: 50%;
+    text-align: left;
+    text-indent: 0px;
+}
+.sle{
+    float:right;
+    margin-left: 15%;
+    margin-top: 10%;
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    width: 50%;
+    text-align: right;
+    text-indent: 0px;
+}
+.direita{
+    width: 28%;
+    height: 280px;
+    margin-top: 20%;
+    margin-left: 0%;
+    float: right;
+    /* position: absolute; */
+}
+
+.esquerda{
+    width: 25%;
+    height: 300px;
+    margin-top: 2%;
+    margin-right: 46%;
+    float: left;
+    position: absolute;
+}
 
 /*Altera configuração quando a tela for maior que 601 px*/
 @media screen and (min-width:901px) {
@@ -110,14 +163,14 @@ a:active {
     header{
         background-color:black;
         flex-direction: row;
-        padding: 1%;
+        padding: 0%;
 
     }
     .itens_menu{
         position: absolute;
         right: 1%;
-        top: 10%;
-        width: 70%;
+        top: 13%;
+        width: 60%;
     }
 
     .itens_menu ul li{
@@ -125,7 +178,8 @@ a:active {
         margin-left: 3%;
     }
     .img_logo{
-        margin-right: 30%;
+        margin-right: 10%;
+        width: 40%;
     }
 
 }
